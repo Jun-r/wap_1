@@ -1,0 +1,14 @@
+@charset "utf-8";
+//全局共用类
+.eims-ui-wp{
+  width:px2rem(640);
+  marrgin:0 auto;
+}
+.cl:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  font-size:0
+}

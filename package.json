@@ -1,0 +1,28 @@
+{
+  "name": "xqx",
+  "version": "1.0.0",
+  "description": "xqx css js ",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-alias-combo": "^0.2.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-include-html": "^1.0.9",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.2.4"
+  },
+  "devDependencies": {
+    "gulp-ruby-sass": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sss"
+  ],
+  "author": "junr",
+  "license": "ISC"
+}

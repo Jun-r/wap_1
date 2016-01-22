@@ -1,0 +1,15 @@
+@charset "utf-8";
+@import "_public";
+//公用函数
+//px转rem
+@function px2rem( $px ){
+  @return $px*320/$designWidth/32 + rem;
+}
+//背景图片
+@mixin background ($sizing,$x:0,$y:0){
+  background-image: url("../images/src/#{$sizing}?__spriter");
+  background-position:px2rem($x) px2rem($y);
+  background-size:px2rem($bgSixeW) px2rem($bgSixeH);
+
+
+}
